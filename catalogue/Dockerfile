@@ -16,7 +16,7 @@ RUN npm install
 
 #ENV key=value 
 ENV MONGO="true" \
-    MONGO_URL="mongodb://mongodb:27017/catalogue"=value
+    MONGO_URL="mongodb://mongodb:27017/catalogue"
 
 
 #When the container starts → run node server.js.
